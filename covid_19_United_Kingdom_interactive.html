@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Covid in the United Kingdom</title>
+    <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous"
+    />
+</head>
+<body>
+<header class="header" style="background-image: url('./images/fig.png'); background-size: 100vw 100vh; background-attachment: fixed; background-color: #ffffff;"/>
+    <div class="row">
+        <div class="col d-flex justify-content-center">
+            <h1 style="position: center; color:black"><b>COVID-19 IN THE UNITED KINGDOM</b></h1>
+        </div>
+    </div>
+    <div class="row border-top">
+        <div class="col d-flex justify-content-center">
+            <h3 style="position: center;"><b>Cases</b></h3>
+        </div>
+    </div>
+    <div class="row d-flex justify-content-center">
+        <p style="text-align:center"><br>The number of diagnosed cases per million people is comparable in all countries of the United Kingdom.</br>It is worth noticing that the population density of England is higher than the other three countries.</br>This may indicate that England was very effective in preventing the disease or that population density does not affect the number of cases.</br>We can also see that the highest number of cases was found for women between 35 and 39 years old.</p>
+    </div>
+    <div class="row border-top">
+        <div class="col d-flex justify-content-center">
+            <iframe width="920" height="875" title="Plot1" src="./images/interactive_map_cases.html" frameBorder="0" ></iframe>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col d-flex justify-content-center">
+            <iframe width="920" height="820" title="Plot1" src="./images/static_map_cases.html" frameBorder="0" ></iframe>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col d-flex justify-content-center">
+            <iframe width="1050" height="650" title="Plot1" src="./images/barplot_pop_per_sqrt_km.html" frameBorder="0" ></iframe>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col d-flex justify-content-center">
+            <iframe width="1050" height="650" title="Plot1" src="./images/lineplot_cases_in_countries.html" frameBorder="0" ></iframe>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col d-flex justify-content-center">
+            <iframe width="1050" height="650" title="Plot1" src="./images/cases_male_female.html" frameBorder="0" ></iframe>
+        </div>
+    </div>
+
+            
+    <div class="row border-top">
+        <div class="col d-flex justify-content-center">
+            <h3 style="position: center;"><b>Tests</b></h3>
+        </div>
+    </div>
+    <div class="row d-flex justify-content-center">
+        <p style="text-align:center"><br>The highest number of PCR tests per 100 people was performed in England.</br>The other 3 UK countries had significantly lower number of PCR tests per 100 people.</br>Despite the higher number of PCR tests performed, the number of diagnosed cases per million people in England was comparable to the other UK countries.</br>This may confirm that England was more effective in preventing the disease than other UK countries.</p>
+    </div>
+    <div class="row border-top">
+        <div class="col d-flex justify-content-center">
+            <iframe width="920" height="875" title="Plot1" src="./images/interactive_map_tests.html" frameBorder="0" ></iframe>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col d-flex justify-content-center">
+            <iframe width="920" height="820" title="Plot1" src="./images/static_map_tests.html" frameBorder="0" ></iframe>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col d-flex justify-content-center">
+            <iframe width="1050" height="650" title="Plot1" src="./images/lineplot_tests_in_countries.html" frameBorder="0" ></iframe>
+        </div>
+    </div>
+
+                
+    <div class="row border-top">
+        <div class="col d-flex justify-content-center">
+            <h3 style="position: center;"><b>Deaths</b></h3>
+        </div>
+    </div>
+    <div class="row d-flex justify-content-center">
+        <p style="text-align:center"><br>The highest number of deaths among people diagnosed with COVID-19 has been reported in England.</br>Although England appears to have been the most successful in preventing infection, this country had the lowest efficiency in treating the disease.</p>
+    </div>
+    <div class="row border-top">
+        <div class="col d-flex justify-content-center">
+            <iframe width="920" height="875" title="Plot1" src="./images/interactive_map_deaths.html" frameBorder="0" ></iframe>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col d-flex justify-content-center">
+            <iframe width="920" height="820" title="Plot1" src="./images/static_map_deaths.html" frameBorder="0" ></iframe>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col d-flex justify-content-center">
+            <iframe width="1050" height="650" title="Plot1" src="./images/lineplot_deaths_in_countries.html" frameBorder="0" ></iframe>
+        </div>
+    </div>
+
+    <div class="row border-top">
+        <div class="col d-flex justify-content-center">
+            <h3 style="position: center;"><b>The impact of vaccinations</b></h3>
+        </div>
+    </div>
+    <div class="row d-flex justify-content-center">
+        <p style="text-align:center"><br>From the plots presented, it can be seen that vaccination has not effectively inhibited the emergence of new COVID-19 cases.</br>However, after the first wave of vaccination (spring-summer 2021), the number of deaths during the next wave of COVID-19 disease (winter 2021/2022)</br>was significantly lower than in previous waves of disease.</br>This may confirm that vaccination does not prevent infection, but mitigates the course of the disease.</p>
+    </div>
+    <div class="row border-top">
+        <div class="col d-flex justify-content-center">
+            <iframe width="1050" height="650" title="Plot1" src="./images/vaccination_uk.html" frameBorder="0" ></iframe>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col d-flex justify-content-center">
+            <iframe width="1050" height="650" title="Plot1" src="./images/vac_deaths_uk.html" frameBorder="0" ></iframe>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col d-flex justify-content-center">
+            <iframe width="1050" height="650" title="Plot1" src="./images/hospitalization_icu.html" frameBorder="0" ></iframe>
+        </div>
+    </div>
+
+    <div class="row border-top">
+        <div class="col d-flex justify-content-center">
+            <h3 style="position: center;"><b>Impact of the pandemic on other aspects of life</b></h3>
+        </div>
+    </div>
+    <div class="row d-flex justify-content-center">
+        <p style="text-align:center"><br>The pandemic has taken its toll on people in other aspects of life as well.</br>The public's anxiety level increased significantly during lockdowns (successive waves of COVID-19) and declined markedly during spring and summer periods.</br>The highest levels of anxiety were observed among young people.</br>The pandemic also increased unemployment among both men and women.</p>
+    </div>
+    <div class="row border-top">
+        <div class="col d-flex justify-content-center">
+            <iframe width="1050" height="650" title="Plot1" src="./images/mental_health.html" frameBorder="0" ></iframe>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col d-flex justify-content-center">
+            <iframe width="1050" height="650" title="Plot1" src="./images/unemployment_man_woman.html" frameBorder="0" ></iframe>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col d-flex justify-content-center">
+            <iframe width="1050" height="650" title="Plot1" src="./images/unemployment_age_groups.html" frameBorder="0" ></iframe>
+        </div>
+    </div>
+
+    <div class="row border-top">
+        <div class="col d-flex justify-content-center">
+            <h3 style="position: center;"><b>Comparison to Poland</b></h3>
+        </div>
+    </div>
+    <div class="row d-flex justify-content-center">
+        <p style="text-align:center"><br>The course of the pandemic in the UK and Poland was similar.</br>It can be noted that at the beginning of the pandemic there were significantly more deaths per million people in the UK than in Poland.</br>During the winter 2021/2022 disease wave, the UK had a higher number of infections per million people.</br>Despite this, the UK had a greater success rate in treating the disease/preventing its severity than Poland,</br>what is confirmed by the lower number of deaths per million people in the UK.</p>
+    </div>
+    <div class="row border-top">
+        <div class="col d-flex justify-content-center">
+            <iframe width="1050" height="650" title="Plot1" src="./images/cases_poland_uk.html" frameBorder="0" ></iframe>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col d-flex justify-content-center">
+            <iframe width="1050" height="650" title="Plot1" src="./images/deaths_poland_uk.html" frameBorder="0" ></iframe>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col d-flex justify-content-center border-top">
+            <p>Sources:</p>
+            <ul>
+                <li>https://coronavirus.data.gov.uk</li>
+                <li>https://ourworldindata.org/coronavirus-source-data</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
+
